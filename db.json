@@ -1,0 +1,52 @@
+{
+  "musicians": [
+    {
+      "id": "1",
+      "name": "Keith Morris",
+      "bandId": "2"
+    },
+    {
+      "id": "2",
+      "name": "Henry Rollins",
+      "bandId": "1"
+    },
+    {
+      "id": "3",
+      "name": "Brian Baker",
+      "bandId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Brett Gurewitz",
+      "bandId": "4"
+    },
+    {
+      "id": "5",
+      "name": "Ian MacKaye",
+      "bandId": "3"
+    },
+    {
+      "id": "6",
+      "name": "Greg Hetson",
+      "bandId": "2"
+    }
+  ],
+  "bands": [
+    {
+      "id": "1",
+      "name": "Black Flag"
+    },
+    {
+      "id": "2",
+      "name": "Circle Jerks"
+    },
+    {
+      "id": "3",
+      "name": "Minor Threat"
+    },
+    {
+      "id": "4",
+      "name": "Bad Religion"
+    }
+  ]
+}
