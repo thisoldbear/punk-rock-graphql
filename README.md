@@ -24,9 +24,11 @@ Starts a server running at http://localhost:3000
 
 Queries can be made using the [GraphiQL](https://github.com/graphql/graphiql) in-browser IDE.
 
-FIrstly, start the Node server and the JSON server respectively.
+Firstly, start the Node server and the JSON server respectively.
 
 Then head to http://localhost:4000/graphql to run queries using GraphiQL.
+
+![GraphiQL in-browser IDE](/graphiql.png)
 
 ### Example Queries
 
@@ -88,7 +90,7 @@ With a RESTful API, we'd likely need to make two requests.
 
 The first to get bands and a second to get musicians, before combining the data.
 
-With GraphQL, we can get make the requqst and get back the combined data in one go using nested queries, which make use of bidirectonal relations between Bands and Musicians setup in `schema/schema.js`
+With GraphQL, we can get make the request and get back the combined data in one go using nested queries, which make use of bidirectonal relations between Bands and Musicians set up in `schema/schema.js`
 
 ##### GraphiQL query
 
